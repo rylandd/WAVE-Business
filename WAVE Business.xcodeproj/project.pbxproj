@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */; };
+		834A757D27172ECF00778910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757C27172ECF00778910 /* ContentView.swift */; };
+		834A757F27172ED000778910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A757E27172ED000778910 /* Assets.xcassets */; };
+		834A758227172ED000778910 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A758127172ED000778910 /* Preview Assets.xcassets */; };
+		834A758C27172ED100778910 /* WAVE_BusinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A758B27172ED100778910 /* WAVE_BusinessTests.swift */; };
+		834A759627172ED100778910 /* WAVE_BusinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A759527172ED100778910 /* WAVE_BusinessUITests.swift */; };
+		834A759827172ED100778910 /* WAVE_BusinessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A759727172ED100778910 /* WAVE_BusinessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834A758827172ED100778910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834A756F27172ECF00778910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834A757627172ECF00778910;
+			remoteInfo = "WAVE Business";
+		};
+		834A759227172ED100778910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834A756F27172ECF00778910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834A757627172ECF00778910;
+			remoteInfo = "WAVE Business";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		834A757727172ECF00778910 /* WAVE Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAVE Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessApp.swift; sourceTree = "<group>"; };
+		834A757C27172ECF00778910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		834A757E27172ED000778910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834A758127172ED000778910 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		834A758727172ED100778910 /* WAVE BusinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WAVE BusinessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834A758B27172ED100778910 /* WAVE_BusinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessTests.swift; sourceTree = "<group>"; };
+		834A759127172ED100778910 /* WAVE BusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WAVE BusinessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834A759527172ED100778910 /* WAVE_BusinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessUITests.swift; sourceTree = "<group>"; };
+		834A759727172ED100778910 /* WAVE_BusinessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834A757427172ECF00778910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834A758427172ED100778910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834A758E27172ED100778910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834A756E27172ECF00778910 = {
+			isa = PBXGroup;
+			children = (
+				834A757927172ECF00778910 /* WAVE Business */,
+				834A758A27172ED100778910 /* WAVE BusinessTests */,
+				834A759427172ED100778910 /* WAVE BusinessUITests */,
+				834A757827172ECF00778910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834A757827172ECF00778910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834A757727172ECF00778910 /* WAVE Business.app */,
+				834A758727172ED100778910 /* WAVE BusinessTests.xctest */,
+				834A759127172ED100778910 /* WAVE BusinessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834A757927172ECF00778910 /* WAVE Business */ = {
+			isa = PBXGroup;
+			children = (
+				834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */,
+				834A757C27172ECF00778910 /* ContentView.swift */,
+				834A757E27172ED000778910 /* Assets.xcassets */,
+				834A758027172ED000778910 /* Preview Content */,
+			);
+			path = "WAVE Business";
+			sourceTree = "<group>";
+		};
+		834A758027172ED000778910 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				834A758127172ED000778910 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		834A758A27172ED100778910 /* WAVE BusinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				834A758B27172ED100778910 /* WAVE_BusinessTests.swift */,
+			);
+			path = "WAVE BusinessTests";
+			sourceTree = "<group>";
+		};
+		834A759427172ED100778910 /* WAVE BusinessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				834A759527172ED100778910 /* WAVE_BusinessUITests.swift */,
+				834A759727172ED100778910 /* WAVE_BusinessUITestsLaunchTests.swift */,
+			);
+			path = "WAVE BusinessUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834A757627172ECF00778910 /* WAVE Business */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834A759B27172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE Business" */;
+			buildPhases = (
+				834A757327172ECF00778910 /* Sources */,
+				834A757427172ECF00778910 /* Frameworks */,
+				834A757527172ECF00778910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WAVE Business";
+			productName = "WAVE Business";
+			productReference = 834A757727172ECF00778910 /* WAVE Business.app */;
+			productType = "com.apple.product-type.application";
+		};
+		834A758627172ED100778910 /* WAVE BusinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834A759E27172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE BusinessTests" */;
+			buildPhases = (
+				834A758327172ED100778910 /* Sources */,
+				834A758427172ED100778910 /* Frameworks */,
+				834A758527172ED100778910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834A758927172ED100778910 /* PBXTargetDependency */,
+			);
+			name = "WAVE BusinessTests";
+			productName = "WAVE BusinessTests";
+			productReference = 834A758727172ED100778910 /* WAVE BusinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834A759027172ED100778910 /* WAVE BusinessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834A75A127172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE BusinessUITests" */;
+			buildPhases = (
+				834A758D27172ED100778910 /* Sources */,
+				834A758E27172ED100778910 /* Frameworks */,
+				834A758F27172ED100778910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834A759327172ED100778910 /* PBXTargetDependency */,
+			);
+			name = "WAVE BusinessUITests";
+			productName = "WAVE BusinessUITests";
+			productReference = 834A759127172ED100778910 /* WAVE BusinessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834A756F27172ECF00778910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					834A757627172ECF00778910 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					834A758627172ED100778910 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 834A757627172ECF00778910;
+					};
+					834A759027172ED100778910 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 834A757627172ECF00778910;
+					};
+				};
+			};
+			buildConfigurationList = 834A757227172ECF00778910 /* Build configuration list for PBXProject "WAVE Business" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834A756E27172ECF00778910;
+			productRefGroup = 834A757827172ECF00778910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834A757627172ECF00778910 /* WAVE Business */,
+				834A758627172ED100778910 /* WAVE BusinessTests */,
+				834A759027172ED100778910 /* WAVE BusinessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834A757527172ECF00778910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834A758227172ED000778910 /* Preview Assets.xcassets in Resources */,
+				834A757F27172ED000778910 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834A758527172ED100778910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834A758F27172ED100778910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834A757327172ECF00778910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834A757D27172ECF00778910 /* ContentView.swift in Sources */,
+				834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834A758327172ED100778910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834A758C27172ED100778910 /* WAVE_BusinessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834A758D27172ED100778910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834A759627172ED100778910 /* WAVE_BusinessUITests.swift in Sources */,
+				834A759827172ED100778910 /* WAVE_BusinessUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		834A758927172ED100778910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834A757627172ECF00778910 /* WAVE Business */;
+			targetProxy = 834A758827172ED100778910 /* PBXContainerItemProxy */;
+		};
+		834A759327172ED100778910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834A757627172ECF00778910 /* WAVE Business */;
+			targetProxy = 834A759227172ED100778910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		834A759927172ED100778910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		834A759A27172ED100778910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		834A759C27172ED100778910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WAVE Business/Preview Content\"";
+				DEVELOPMENT_TEAM = 67QKP5VYVT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAVECOMP523.WAVE-Business";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834A759D27172ED100778910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WAVE Business/Preview Content\"";
+				DEVELOPMENT_TEAM = 67QKP5VYVT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAVECOMP523.WAVE-Business";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		834A759F27172ED100778910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67QKP5VYVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAVECOMP523.WAVE-BusinessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAVE Business.app/WAVE Business";
+			};
+			name = Debug;
+		};
+		834A75A027172ED100778910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67QKP5VYVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAVECOMP523.WAVE-BusinessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAVE Business.app/WAVE Business";
+			};
+			name = Release;
+		};
+		834A75A227172ED100778910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67QKP5VYVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAVECOMP523.WAVE-BusinessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WAVE Business";
+			};
+			name = Debug;
+		};
+		834A75A327172ED100778910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67QKP5VYVT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WAVECOMP523.WAVE-BusinessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WAVE Business";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834A757227172ECF00778910 /* Build configuration list for PBXProject "WAVE Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834A759927172ED100778910 /* Debug */,
+				834A759A27172ED100778910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834A759B27172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE Business" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834A759C27172ED100778910 /* Debug */,
+				834A759D27172ED100778910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834A759E27172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE BusinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834A759F27172ED100778910 /* Debug */,
+				834A75A027172ED100778910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834A75A127172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE BusinessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834A75A227172ED100778910 /* Debug */,
+				834A75A327172ED100778910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834A756F27172ECF00778910 /* Project object */;
+}
