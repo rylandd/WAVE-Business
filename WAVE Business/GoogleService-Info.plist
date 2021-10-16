@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>316281495254-tkgms7vo0aqn6rjg1eak8p8ukuvbt25s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.316281495254-tkgms7vo0aqn6rjg1eak8p8ukuvbt25s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBEisFf_q8Guz7Qea6k9Btyo7YnYvb2uck</string>
+	<key>GCM_SENDER_ID</key>
+	<string>316281495254</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>WAVECOMP523.WAVE-Business</string>
+	<key>PROJECT_ID</key>
+	<string>wavebusiness-e71a3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wavebusiness-e71a3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:316281495254:ios:ba594ab174c2c7cb81b377</string>
+	<key>DATABASE_URL</key>
+	<string>https://wavebusiness-e71a3-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
