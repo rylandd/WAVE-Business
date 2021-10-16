@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29B4D723271B3E2800592B61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29B4D722271B3E2800592B61 /* GoogleService-Info.plist */; };
 		834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */; };
 		834A757D27172ECF00778910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757C27172ECF00778910 /* ContentView.swift */; };
 		834A757F27172ED000778910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A757E27172ED000778910 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		834A758C27172ED100778910 /* WAVE_BusinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A758B27172ED100778910 /* WAVE_BusinessTests.swift */; };
 		834A759627172ED100778910 /* WAVE_BusinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A759527172ED100778910 /* WAVE_BusinessUITests.swift */; };
 		834A759827172ED100778910 /* WAVE_BusinessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A759727172ED100778910 /* WAVE_BusinessUITestsLaunchTests.swift */; };
+		B4D3F788470EAC66BAC42373 /* Pods_WAVE_BusinessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD75D1401BDC0B8DC24A2B67 /* Pods_WAVE_BusinessTests.framework */; };
+		D747AAF3D7B8AAEDC73544B3 /* Pods_WAVE_Business.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89E569688F408DF3D935B6FF /* Pods_WAVE_Business.framework */; };
+		D791C3E28BBCA41373AB1AE3 /* Pods_WAVE_Business_WAVE_BusinessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF6308B629206B01BD583EF /* Pods_WAVE_Business_WAVE_BusinessUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CF6308B629206B01BD583EF /* Pods_WAVE_Business_WAVE_BusinessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAVE_Business_WAVE_BusinessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B4D722271B3E2800592B61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		438B60B80A78CCE78614BD5C /* Pods-WAVE BusinessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVE BusinessTests.release.xcconfig"; path = "Target Support Files/Pods-WAVE BusinessTests/Pods-WAVE BusinessTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A5F7524B96ADEA4FF6C0E0C /* Pods-WAVE Business-WAVE BusinessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVE Business-WAVE BusinessUITests.release.xcconfig"; path = "Target Support Files/Pods-WAVE Business-WAVE BusinessUITests/Pods-WAVE Business-WAVE BusinessUITests.release.xcconfig"; sourceTree = "<group>"; };
 		834A757727172ECF00778910 /* WAVE Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAVE Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessApp.swift; sourceTree = "<group>"; };
 		834A757C27172ECF00778910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,12 @@
 		834A759127172ED100778910 /* WAVE BusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WAVE BusinessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834A759527172ED100778910 /* WAVE_BusinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessUITests.swift; sourceTree = "<group>"; };
 		834A759727172ED100778910 /* WAVE_BusinessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		854C1238EE8E54A591D3E4FB /* Pods-WAVE BusinessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVE BusinessTests.debug.xcconfig"; path = "Target Support Files/Pods-WAVE BusinessTests/Pods-WAVE BusinessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89E569688F408DF3D935B6FF /* Pods_WAVE_Business.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAVE_Business.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FAD5CA161EE91F422C8BA4 /* Pods-WAVE Business.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVE Business.debug.xcconfig"; path = "Target Support Files/Pods-WAVE Business/Pods-WAVE Business.debug.xcconfig"; sourceTree = "<group>"; };
+		DD75D1401BDC0B8DC24A2B67 /* Pods_WAVE_BusinessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAVE_BusinessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7C30FFAB0B7A04AF52298B /* Pods-WAVE Business-WAVE BusinessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVE Business-WAVE BusinessUITests.debug.xcconfig"; path = "Target Support Files/Pods-WAVE Business-WAVE BusinessUITests/Pods-WAVE Business-WAVE BusinessUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6168F9CDD158D37554DB9D /* Pods-WAVE Business.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAVE Business.release.xcconfig"; path = "Target Support Files/Pods-WAVE Business/Pods-WAVE Business.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D747AAF3D7B8AAEDC73544B3 /* Pods_WAVE_Business.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D3F788470EAC66BAC42373 /* Pods_WAVE_BusinessTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D791C3E28BBCA41373AB1AE3 /* Pods_WAVE_Business_WAVE_BusinessUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,8 @@
 				834A758A27172ED100778910 /* WAVE BusinessTests */,
 				834A759427172ED100778910 /* WAVE BusinessUITests */,
 				834A757827172ECF00778910 /* Products */,
+				BC58E4182A31D817C21E62B1 /* Pods */,
+				CDAF93BA0CC8907913F7017E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +113,7 @@
 		834A757927172ECF00778910 /* WAVE Business */ = {
 			isa = PBXGroup;
 			children = (
+				29B4D722271B3E2800592B61 /* GoogleService-Info.plist */,
 				834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */,
 				834A757C27172ECF00778910 /* ContentView.swift */,
 				834A757E27172ED000778910 /* Assets.xcassets */,
@@ -127,6 +147,30 @@
 			path = "WAVE BusinessUITests";
 			sourceTree = "<group>";
 		};
+		BC58E4182A31D817C21E62B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7FAD5CA161EE91F422C8BA4 /* Pods-WAVE Business.debug.xcconfig */,
+				EB6168F9CDD158D37554DB9D /* Pods-WAVE Business.release.xcconfig */,
+				DE7C30FFAB0B7A04AF52298B /* Pods-WAVE Business-WAVE BusinessUITests.debug.xcconfig */,
+				4A5F7524B96ADEA4FF6C0E0C /* Pods-WAVE Business-WAVE BusinessUITests.release.xcconfig */,
+				854C1238EE8E54A591D3E4FB /* Pods-WAVE BusinessTests.debug.xcconfig */,
+				438B60B80A78CCE78614BD5C /* Pods-WAVE BusinessTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDAF93BA0CC8907913F7017E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89E569688F408DF3D935B6FF /* Pods_WAVE_Business.framework */,
+				1CF6308B629206B01BD583EF /* Pods_WAVE_Business_WAVE_BusinessUITests.framework */,
+				DD75D1401BDC0B8DC24A2B67 /* Pods_WAVE_BusinessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834A759B27172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE Business" */;
 			buildPhases = (
+				A275A9A0A4C3E0B7E49108D6 /* [CP] Check Pods Manifest.lock */,
 				834A757327172ECF00778910 /* Sources */,
 				834A757427172ECF00778910 /* Frameworks */,
 				834A757527172ECF00778910 /* Resources */,
+				6F41E0DDDFE462A632EBDC73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834A759E27172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE BusinessTests" */;
 			buildPhases = (
+				61DD21403CECFB96CB357890 /* [CP] Check Pods Manifest.lock */,
 				834A758327172ED100778910 /* Sources */,
 				834A758427172ED100778910 /* Frameworks */,
 				834A758527172ED100778910 /* Resources */,
@@ -169,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 834A75A127172ED100778910 /* Build configuration list for PBXNativeTarget "WAVE BusinessUITests" */;
 			buildPhases = (
+				56FA23B5E0F1EABF5678F8CA /* [CP] Check Pods Manifest.lock */,
 				834A758D27172ED100778910 /* Sources */,
 				834A758E27172ED100778910 /* Frameworks */,
 				834A758F27172ED100778910 /* Resources */,
+				669B6722FFB3B9C8182F4E95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +282,7 @@
 			files = (
 				834A758227172ED000778910 /* Preview Assets.xcassets in Resources */,
 				834A757F27172ED000778910 /* Assets.xcassets in Resources */,
+				29B4D723271B3E2800592B61 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +301,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56FA23B5E0F1EABF5678F8CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAVE Business-WAVE BusinessUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61DD21403CECFB96CB357890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAVE BusinessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		669B6722FFB3B9C8182F4E95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WAVE Business-WAVE BusinessUITests/Pods-WAVE Business-WAVE BusinessUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WAVE Business-WAVE BusinessUITests/Pods-WAVE Business-WAVE BusinessUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WAVE Business-WAVE BusinessUITests/Pods-WAVE Business-WAVE BusinessUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F41E0DDDFE462A632EBDC73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WAVE Business/Pods-WAVE Business-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WAVE Business/Pods-WAVE Business-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WAVE Business/Pods-WAVE Business-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A275A9A0A4C3E0B7E49108D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAVE Business-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		834A757327172ECF00778910 /* Sources */ = {
@@ -413,6 +566,7 @@
 		};
 		834A759C27172ED100778910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FAD5CA161EE91F422C8BA4 /* Pods-WAVE Business.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,6 +597,7 @@
 		};
 		834A759D27172ED100778910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6168F9CDD158D37554DB9D /* Pods-WAVE Business.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +628,7 @@
 		};
 		834A759F27172ED100778910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854C1238EE8E54A591D3E4FB /* Pods-WAVE BusinessTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +654,7 @@
 		};
 		834A75A027172ED100778910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438B60B80A78CCE78614BD5C /* Pods-WAVE BusinessTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +680,7 @@
 		};
 		834A75A227172ED100778910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7C30FFAB0B7A04AF52298B /* Pods-WAVE Business-WAVE BusinessUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +704,7 @@
 		};
 		834A75A327172ED100778910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5F7524B96ADEA4FF6C0E0C /* Pods-WAVE Business-WAVE BusinessUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
