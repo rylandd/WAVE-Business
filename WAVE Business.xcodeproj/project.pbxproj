@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		290085FE271CC469005F34C0 /* SessionUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290085FD271CC469005F34C0 /* SessionUserDetails.swift */; };
 		29008601271CC4D2005F34C0 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29008600271CC4D2005F34C0 /* SessionService.swift */; };
+		29008604271CD322005F34C0 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29008603271CD322005F34C0 /* LoginCredentials.swift */; };
+		29008607271CD369005F34C0 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29008606271CD369005F34C0 /* LoginService.swift */; };
+		2900860A271CD4AD005F34C0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29008609271CD4AD005F34C0 /* LoginViewModel.swift */; };
 		298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDB5271CB6B40003F76B /* RegistrationDetails.swift */; };
 		298ACDB9271CB7130003F76B /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDB8271CB7130003F76B /* RegistrationService.swift */; };
 		298ACDBC271CBB140003F76B /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDBB271CBB140003F76B /* RegistrationViewModel.swift */; };
@@ -57,6 +60,9 @@
 /* Begin PBXFileReference section */
 		290085FD271CC469005F34C0 /* SessionUserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUserDetails.swift; sourceTree = "<group>"; };
 		29008600271CC4D2005F34C0 /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		29008603271CD322005F34C0 /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		29008606271CD369005F34C0 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		29008609271CD4AD005F34C0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		298ACDB5271CB6B40003F76B /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
 		298ACDB8271CB7130003F76B /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
 		298ACDBB271CBB140003F76B /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
@@ -138,6 +144,30 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		29008602271CD30A005F34C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29008603271CD322005F34C0 /* LoginCredentials.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29008605271CD354005F34C0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				29008606271CD369005F34C0 /* LoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		29008608271CD499005F34C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				29008609271CD4AD005F34C0 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		298ACDB4271CB6940003F76B /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +207,9 @@
 		29B4D734271B991500592B61 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				29008608271CD499005F34C0 /* ViewModel */,
+				29008605271CD354005F34C0 /* Service */,
+				29008602271CD30A005F34C0 /* Model */,
 				29B4D735271B993400592B61 /* View */,
 			);
 			path = Login;
@@ -470,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29008604271CD322005F34C0 /* LoginCredentials.swift in Sources */,
 				29B4D742271BA9C200592B61 /* ButtonView.swift in Sources */,
 				298ACDB9271CB7130003F76B /* RegistrationService.swift in Sources */,
 				29B4D737271B996000592B61 /* LoginVIew.swift in Sources */,
@@ -482,9 +516,11 @@
 				298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */,
 				29B4D73B271B9B3F00592B61 /* InputView.swift in Sources */,
 				29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */,
+				29008607271CD369005F34C0 /* LoginService.swift in Sources */,
 				29B4D752271C9EC600592B61 /* ForgotPasswordView.swift in Sources */,
 				29B4D748271C961F00592B61 /* RegisterView.swift in Sources */,
 				834A757D27172ECF00778910 /* ContentView.swift in Sources */,
+				2900860A271CD4AD005F34C0 /* LoginViewModel.swift in Sources */,
 				834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

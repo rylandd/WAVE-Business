@@ -12,6 +12,8 @@ struct LoginVIew: View {
     @State private var showRegistration = false
     @State private var showForgotPassword = false
     
+    @StateObject private var vm = LoginViewModelImpl(service: LoginServiceImpl())
+    
     var body: some View {
         
         ZStack{
@@ -37,10 +39,15 @@ struct LoginVIew: View {
                     
                 VStack(spacing: 16){
                     
-                    InputView(text: .constant(""), placeholder: "Email", keyboardType: .emailAddress, sfSymbol: "envelope")
+                    InputView(text: $vm.credentials.email,
+                              placeholder: "Email",
+                              keyboardType: .emailAddress,
+                              sfSymbol: "envelope")
                         
                     
-                    PasswordView(password: .constant(""), placeholder: "Password", sfSymbol: "lock")
+                    PasswordView(password: $vm.credentials.password,
+                                 placeholder: "Password",
+                                 sfSymbol: "lock")
                     
                 }
                 
@@ -71,6 +78,7 @@ struct LoginVIew: View {
                         //---------------------------
                         // login view
                         //---------------------------
+                        vm.login()
                     }
                     ButtonView(title: "Sign-Up",
                                bg: .clear,
