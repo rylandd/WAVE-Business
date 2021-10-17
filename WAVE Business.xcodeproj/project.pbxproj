@@ -19,6 +19,10 @@
 		29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D73D271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift */; };
 		29B4D740271BA6B100592B61 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D73F271BA6B100592B61 /* PasswordView.swift */; };
 		29B4D742271BA9C200592B61 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D741271BA9C200592B61 /* ButtonView.swift */; };
+		29B4D748271C961F00592B61 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D747271C961F00592B61 /* RegisterView.swift */; };
+		29B4D74A271C979400592B61 /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D749271C979400592B61 /* CloseModifier.swift */; };
+		29B4D74E271C9C9600592B61 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D74D271C9C9600592B61 /* SuccessView.swift */; };
+		29B4D752271C9EC600592B61 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D751271C9EC600592B61 /* ForgotPasswordView.swift */; };
 		834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */; };
 		834A757D27172ECF00778910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757C27172ECF00778910 /* ContentView.swift */; };
 		834A757F27172ED000778910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A757E27172ED000778910 /* Assets.xcassets */; };
@@ -52,6 +56,10 @@
 		29B4D73D271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutComponentModifier.swift; sourceTree = "<group>"; };
 		29B4D73F271BA6B100592B61 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 		29B4D741271BA9C200592B61 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		29B4D747271C961F00592B61 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		29B4D749271C979400592B61 /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
+		29B4D74D271C9C9600592B61 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
+		29B4D751271C9EC600592B61 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		834A757727172ECF00778910 /* WAVE Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAVE Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessApp.swift; sourceTree = "<group>"; };
 		834A757C27172ECF00778910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +106,9 @@
 		29B4D733271B98F900592B61 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				29B4D74F271C9E9E00592B61 /* Forgot Password */,
+				29B4D74B271C9C6300592B61 /* Success */,
+				29B4D745271C95F300592B61 /* Register */,
 				29B4D734271B991500592B61 /* Login */,
 			);
 			path = Feature;
@@ -142,8 +153,57 @@
 			isa = PBXGroup;
 			children = (
 				29B4D73D271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift */,
+				29B4D749271C979400592B61 /* CloseModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		29B4D745271C95F300592B61 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D746271C960600592B61 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		29B4D746271C960600592B61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D747271C961F00592B61 /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29B4D74B271C9C6300592B61 /* Success */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D74C271C9C7D00592B61 /* VIew */,
+			);
+			path = Success;
+			sourceTree = "<group>";
+		};
+		29B4D74C271C9C7D00592B61 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D74D271C9C9600592B61 /* SuccessView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		29B4D74F271C9E9E00592B61 /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D750271C9EAD00592B61 /* View */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		29B4D750271C9EAD00592B61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D751271C9EC600592B61 /* ForgotPasswordView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		834A756E27172ECF00778910 = {
@@ -349,9 +409,13 @@
 			files = (
 				29B4D742271BA9C200592B61 /* ButtonView.swift in Sources */,
 				29B4D737271B996000592B61 /* LoginVIew.swift in Sources */,
+				29B4D74E271C9C9600592B61 /* SuccessView.swift in Sources */,
+				29B4D74A271C979400592B61 /* CloseModifier.swift in Sources */,
 				29B4D740271BA6B100592B61 /* PasswordView.swift in Sources */,
 				29B4D73B271B9B3F00592B61 /* InputView.swift in Sources */,
 				29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */,
+				29B4D752271C9EC600592B61 /* ForgotPasswordView.swift in Sources */,
+				29B4D748271C961F00592B61 /* RegisterView.swift in Sources */,
 				834A757D27172ECF00778910 /* ContentView.swift in Sources */,
 				834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */,
 			);

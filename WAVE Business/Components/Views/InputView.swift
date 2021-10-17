@@ -32,11 +32,11 @@ struct InputView: View {
                         Image(systemName: systemImage)
                             .font(.system(size: 16, weight: .semibold))
                             .padding(.leading,5)
-                            .foregroundColor(Color.white.opacity(1))
+                            .foregroundColor(Color.gray.opacity(1))
                     }
                     RoundedRectangle(cornerRadius: 30,
                                      style: .continuous)
-                        .stroke(Color.white.opacity(1))
+                        .stroke(Color.gray.opacity(1))
                 }
             )
 

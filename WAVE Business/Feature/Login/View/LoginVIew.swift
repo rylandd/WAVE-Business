@@ -15,7 +15,7 @@ struct LoginVIew: View {
                         .resizable()
                         .scaledToFill()
                         .edgesIgnoringSafeArea(.all)
-                        .blur(radius: 250)
+                        .blur(radius: 500)
                         
             
             VStack(){
@@ -84,6 +84,8 @@ struct LoginVIew: View {
 
 struct LoginVIew_Previews: PreviewProvider {
     static var previews: some View {
-        LoginVIew()
+        NavigationView{
+            LoginVIew()
+        }
     }
 }
