@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDB5271CB6B40003F76B /* RegistrationDetails.swift */; };
+		298ACDB9271CB7130003F76B /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDB8271CB7130003F76B /* RegistrationService.swift */; };
+		298ACDBC271CBB140003F76B /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDBB271CBB140003F76B /* RegistrationViewModel.swift */; };
 		29B4D726271B938A00592B61 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 29B4D725271B938A00592B61 /* FirebaseAnalytics */; };
 		29B4D728271B938A00592B61 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 29B4D727271B938A00592B61 /* FirebaseAuth */; };
 		29B4D72A271B938A00592B61 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 29B4D729271B938A00592B61 /* FirebaseCrashlytics */; };
@@ -50,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		298ACDB5271CB6B40003F76B /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
+		298ACDB8271CB7130003F76B /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
+		298ACDBB271CBB140003F76B /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		29B4D731271B93CB00592B61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		29B4D736271B996000592B61 /* LoginVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIew.swift; sourceTree = "<group>"; };
 		29B4D73A271B9B3F00592B61 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
@@ -103,6 +109,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		298ACDB4271CB6940003F76B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				298ACDB5271CB6B40003F76B /* RegistrationDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		298ACDB7271CB6FC0003F76B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				298ACDB8271CB7130003F76B /* RegistrationService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		298ACDBA271CBAFB0003F76B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				298ACDBB271CBB140003F76B /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		29B4D733271B98F900592B61 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +191,9 @@
 		29B4D745271C95F300592B61 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				298ACDBA271CBAFB0003F76B /* ViewModel */,
+				298ACDB7271CB6FC0003F76B /* Service */,
+				298ACDB4271CB6940003F76B /* Model */,
 				29B4D746271C960600592B61 /* View */,
 			);
 			path = Register;
@@ -408,10 +441,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B4D742271BA9C200592B61 /* ButtonView.swift in Sources */,
+				298ACDB9271CB7130003F76B /* RegistrationService.swift in Sources */,
 				29B4D737271B996000592B61 /* LoginVIew.swift in Sources */,
+				298ACDBC271CBB140003F76B /* RegistrationViewModel.swift in Sources */,
 				29B4D74E271C9C9600592B61 /* SuccessView.swift in Sources */,
 				29B4D74A271C979400592B61 /* CloseModifier.swift in Sources */,
 				29B4D740271BA6B100592B61 /* PasswordView.swift in Sources */,
+				298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */,
 				29B4D73B271B9B3F00592B61 /* InputView.swift in Sources */,
 				29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */,
 				29B4D752271C9EC600592B61 /* ForgotPasswordView.swift in Sources */,
