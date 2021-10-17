@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290085FE271CC469005F34C0 /* SessionUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290085FD271CC469005F34C0 /* SessionUserDetails.swift */; };
+		29008601271CC4D2005F34C0 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29008600271CC4D2005F34C0 /* SessionService.swift */; };
 		298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDB5271CB6B40003F76B /* RegistrationDetails.swift */; };
 		298ACDB9271CB7130003F76B /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDB8271CB7130003F76B /* RegistrationService.swift */; };
 		298ACDBC271CBB140003F76B /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298ACDBB271CBB140003F76B /* RegistrationViewModel.swift */; };
@@ -53,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		290085FD271CC469005F34C0 /* SessionUserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUserDetails.swift; sourceTree = "<group>"; };
+		29008600271CC4D2005F34C0 /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
 		298ACDB5271CB6B40003F76B /* RegistrationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationDetails.swift; sourceTree = "<group>"; };
 		298ACDB8271CB7130003F76B /* RegistrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationService.swift; sourceTree = "<group>"; };
 		298ACDBB271CBB140003F76B /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
@@ -109,6 +113,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290085FB271CC41E005F34C0 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				290085FF271CC4BF005F34C0 /* Service */,
+				290085FC271CC447005F34C0 /* Model */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		290085FC271CC447005F34C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				290085FD271CC469005F34C0 /* SessionUserDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		290085FF271CC4BF005F34C0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				29008600271CC4D2005F34C0 /* SessionService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		298ACDB4271CB6940003F76B /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +165,7 @@
 		29B4D733271B98F900592B61 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				290085FB271CC41E005F34C0 /* Session */,
 				29B4D74F271C9E9E00592B61 /* Forgot Password */,
 				29B4D74B271C9C6300592B61 /* Success */,
 				29B4D745271C95F300592B61 /* Register */,
@@ -444,7 +474,9 @@
 				298ACDB9271CB7130003F76B /* RegistrationService.swift in Sources */,
 				29B4D737271B996000592B61 /* LoginVIew.swift in Sources */,
 				298ACDBC271CBB140003F76B /* RegistrationViewModel.swift in Sources */,
+				29008601271CC4D2005F34C0 /* SessionService.swift in Sources */,
 				29B4D74E271C9C9600592B61 /* SuccessView.swift in Sources */,
+				290085FE271CC469005F34C0 /* SessionUserDetails.swift in Sources */,
 				29B4D74A271C979400592B61 /* CloseModifier.swift in Sources */,
 				29B4D740271BA6B100592B61 /* PasswordView.swift in Sources */,
 				298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */,

@@ -9,7 +9,9 @@ import SwiftUI
 
 struct RegisterView: View {
     
-    
+    @StateObject private var vm = RegistrationViewModelImpl(
+        service: RegistrationServiceImpl()
+    )
     
     var body: some View {
         
@@ -19,17 +21,32 @@ struct RegisterView: View {
                 
                 VStack(spacing: 16){
                     
-                    InputView(text: .constant(""), placeholder: "Email", keyboardType: .emailAddress, sfSymbol: "envelope")
-                    PasswordView(password: .constant(""), placeholder: "Password", sfSymbol: "lock")
+                    InputView(text: $vm.userDetails.email,
+                              placeholder: "Email",
+                              keyboardType: .emailAddress,
+                              sfSymbol: "envelope")
+                    PasswordView(password: $vm.userDetails.password,
+                                 placeholder: "Password",
+                                 sfSymbol: "lock")
                     Divider()
                     
-                    InputView(text: .constant(""), placeholder: "First Name", keyboardType: .namePhonePad, sfSymbol: nil)
-                    InputView(text: .constant(""), placeholder: "Last Name", keyboardType: .namePhonePad, sfSymbol: nil)
-                    InputView(text: .constant(""), placeholder: "Bar Name", keyboardType: .namePhonePad, sfSymbol: nil)
+                    InputView(text: $vm.userDetails.firstName,
+                              placeholder: "First Name",
+                              keyboardType: .namePhonePad,
+                              sfSymbol: nil)
+                    InputView(text: $vm.userDetails.lastName,
+                              placeholder: "Last Name",
+                              keyboardType: .namePhonePad,
+                              sfSymbol: nil)
+                    InputView(text: $vm.userDetails.barName,
+                              placeholder: "Bar Name",
+                              keyboardType: .namePhonePad,
+                              sfSymbol: nil)
                 }
                 
                 ButtonView(title: "Sign up"){
                     // sign up user
+                    vm.register()
                 }
                 
             }

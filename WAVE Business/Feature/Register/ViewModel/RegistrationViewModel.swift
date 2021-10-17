@@ -22,7 +22,7 @@ protocol RegistrationViewModel {
     init(service: RegistrationService)
 }
 
-final class RegistrationViewModelImpl: RegistrationViewModel {
+final class RegistrationViewModelImpl: ObservableObject, RegistrationViewModel {
     
     let service: RegistrationService
     var state: RegistrationState = .na
