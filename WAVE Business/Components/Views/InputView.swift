@@ -23,6 +23,7 @@ struct InputView: View {
             minHeight: 45)
             .padding(.leading, sfSymbol == nil ? textFieldLeading / 2 : textFieldLeading)
             .keyboardType(keyboardType)
+            
             .background(
                 
                 ZStack(alignment: .leading){
@@ -31,13 +32,14 @@ struct InputView: View {
                         Image(systemName: systemImage)
                             .font(.system(size: 16, weight: .semibold))
                             .padding(.leading,5)
-                            .foregroundColor(Color.gray.opacity(0.5))
+                            .foregroundColor(Color.white.opacity(1))
                     }
                     RoundedRectangle(cornerRadius: 30,
                                      style: .continuous)
-                        .stroke(Color.gray.opacity(0.3))
+                        .stroke(Color.white.opacity(1))
                 }
             )
+
     }
 }
 
@@ -52,6 +54,7 @@ struct InputView_Previews: PreviewProvider {
                       keyboardType: .emailAddress,
                       sfSymbol: "envelope"
             ).preview(with: "Text Input with symbol")
+            
             
             InputView(text: .constant(""),
                       placeholder: "FIrst Name",
