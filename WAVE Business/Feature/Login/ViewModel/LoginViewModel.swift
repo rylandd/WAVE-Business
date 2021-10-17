@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import simd
 
 enum LoginState {
     case successful
@@ -19,6 +20,7 @@ protocol LoginViewModel {
     var service: LoginService {get}
     var state: LoginState {get}
     var credentials: LoginCredentials {get}
+    var hasError: Bool {get}
     init(service: LoginService)
 }
 
@@ -26,6 +28,7 @@ final class LoginViewModelImpl: ObservableObject, LoginViewModel {
     
     @Published var state: LoginState = .na
     @Published var credentials: LoginCredentials = LoginCredentials.new
+    @Published var hasError: Bool = false
     
     private var subscriptions = Set<AnyCancellable>()
     
@@ -33,6 +36,7 @@ final class LoginViewModelImpl: ObservableObject, LoginViewModel {
     
     init(service: LoginService) {
         self.service = service
+        setupErrorSubscription()
     }
     
     func login(){
@@ -50,5 +54,22 @@ final class LoginViewModelImpl: ObservableObject, LoginViewModel {
                 self?.state = .successful
             }
             .store(in: &subscriptions)
+    }
+}
+
+private extension LoginViewModelImpl {
+    
+    func setupErrorSubscription(){
+        $state
+            .map {state -> Bool in
+                switch state{
+                case .successful,
+                        .na:
+                    return false
+                case .failed:
+                    return true
+                }
+            }
+            .assign(to: &$hasError)
     }
 }

@@ -103,7 +103,17 @@ struct LoginVIew: View {
                 
             
            
-        }
+        }.alert(isPresented: $vm.hasError,
+                content: {
+            
+            if case .failed(let error) = vm.state {
+                return Alert(title: Text("Error"),
+                             message: Text(error.localizedDescription))
+            } else {
+                return Alert(title: Text("Error"),
+                             message: Text("Something went Wrong"))
+            }
+        })
     }
 }
 
