@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct LoginVIew: View {
+    
+    @State private var showRegistration = false
+    @State private var showForgotPassword = false
+    
     var body: some View {
         
         ZStack{
@@ -44,31 +48,44 @@ struct LoginVIew: View {
                 HStack {
                     Spacer()
                     Button(action: {
+                        //---------------------------
                         // forgot password view
+                        //---------------------------
+                        showForgotPassword.toggle()
                     }, label: {
                         Text("Forgot Password?")
                             .foregroundColor(Color(hue: 0.607, saturation: 0.857, brightness: 0.773))
                             .padding(.trailing)
                     })
                         .font(.system(size: 16, weight: .bold))
+                        .sheet(isPresented: $showForgotPassword,
+                               content: {
+                            ForgotPasswordView()
+                        })
                 }
                 
                 
                 VStack(spacing: 18){
                     
                     ButtonView(title: "Login"){
-                        
+                        //---------------------------
                         // login view
+                        //---------------------------
                     }
                     ButtonView(title: "Sign-Up",
                                bg: .clear,
                                fg: .black,
                                border: .white){
                         
+                        //---------------------------
                         //Sign-Up view
+                        //---------------------------
+                        showRegistration.toggle()
                     }
+                    .sheet(isPresented: $showRegistration, content: {
+                                   RegisterView()
+                               })
                 }
-                
                 
                 
                 Spacer()
