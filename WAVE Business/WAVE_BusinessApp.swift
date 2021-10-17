@@ -26,7 +26,10 @@ struct WAVE_BusinessApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            NavigationView {
+                LoginVIew()
+            }
         }
     }
 }

@@ -14,6 +14,11 @@
 		29B4D72E271B938A00592B61 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 29B4D72D271B938A00592B61 /* FirebaseFirestore */; };
 		29B4D730271B938A00592B61 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 29B4D72F271B938A00592B61 /* FirebaseMessaging */; };
 		29B4D732271B93CB00592B61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29B4D731271B93CB00592B61 /* GoogleService-Info.plist */; };
+		29B4D737271B996000592B61 /* LoginVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D736271B996000592B61 /* LoginVIew.swift */; };
+		29B4D73B271B9B3F00592B61 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D73A271B9B3F00592B61 /* InputView.swift */; };
+		29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D73D271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift */; };
+		29B4D740271BA6B100592B61 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D73F271BA6B100592B61 /* PasswordView.swift */; };
+		29B4D742271BA9C200592B61 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D741271BA9C200592B61 /* ButtonView.swift */; };
 		834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */; };
 		834A757D27172ECF00778910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757C27172ECF00778910 /* ContentView.swift */; };
 		834A757F27172ED000778910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A757E27172ED000778910 /* Assets.xcassets */; };
@@ -42,6 +47,11 @@
 
 /* Begin PBXFileReference section */
 		29B4D731271B93CB00592B61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29B4D736271B996000592B61 /* LoginVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIew.swift; sourceTree = "<group>"; };
+		29B4D73A271B9B3F00592B61 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		29B4D73D271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewLayoutComponentModifier.swift; sourceTree = "<group>"; };
+		29B4D73F271BA6B100592B61 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		29B4D741271BA9C200592B61 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		834A757727172ECF00778910 /* WAVE Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAVE Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessApp.swift; sourceTree = "<group>"; };
 		834A757C27172ECF00778910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +95,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29B4D733271B98F900592B61 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D734271B991500592B61 /* Login */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		29B4D734271B991500592B61 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D735271B993400592B61 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		29B4D735271B993400592B61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D736271B996000592B61 /* LoginVIew.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29B4D738271B9ADE00592B61 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D73C271BA47900592B61 /* Modifier */,
+				29B4D739271B9AF200592B61 /* Views */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		29B4D739271B9AF200592B61 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D73A271B9B3F00592B61 /* InputView.swift */,
+				29B4D73F271BA6B100592B61 /* PasswordView.swift */,
+				29B4D741271BA9C200592B61 /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29B4D73C271BA47900592B61 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				29B4D73D271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		834A756E27172ECF00778910 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +169,8 @@
 		834A757927172ECF00778910 /* WAVE Business */ = {
 			isa = PBXGroup;
 			children = (
+				29B4D738271B9ADE00592B61 /* Components */,
+				29B4D733271B98F900592B61 /* Feature */,
 				29B4D731271B93CB00592B61 /* GoogleService-Info.plist */,
 				834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */,
 				834A757C27172ECF00778910 /* ContentView.swift */,
@@ -284,6 +347,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B4D742271BA9C200592B61 /* ButtonView.swift in Sources */,
+				29B4D737271B996000592B61 /* LoginVIew.swift in Sources */,
+				29B4D740271BA6B100592B61 /* PasswordView.swift in Sources */,
+				29B4D73B271B9B3F00592B61 /* InputView.swift in Sources */,
+				29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */,
 				834A757D27172ECF00778910 /* ContentView.swift in Sources */,
 				834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */,
 			);
