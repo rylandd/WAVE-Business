@@ -4,7 +4,7 @@
 //
 //  Created by Ryland Dreibelbis on 10/13/21.
 //
-// new commit for an update
+// new commit for pulling issues
 
 import SwiftUI
 import Firebase
