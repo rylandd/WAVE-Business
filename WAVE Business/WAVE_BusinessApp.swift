@@ -23,10 +23,22 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
 struct WAVE_BusinessApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var sessionService = SessionServiceImpl()
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            NavigationView {
+                switch sessionService.state {
+                case .loggedIn:
+                    SuccessView()
+                        .environmentObject(sessionService)
+                case .loggedOut:
+                    LoginVIew()
+                }
+                //LoginVIew()
+                
+            }
         }
     }
 }
