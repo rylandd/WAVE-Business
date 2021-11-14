@@ -12,20 +12,36 @@ struct SuccessView: View {
     @EnvironmentObject var sessionService: SessionServiceImpl
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16){
+        
+        ZStack{
+            
+            Color(red: 9/255, green: 17/255, blue: 28/255)
+                .ignoresSafeArea()
             
             VStack(alignment: .leading, spacing: 16){
                 
-                Text("First Name: \(sessionService.userDetails?.firstName ?? "N/A")")
-                Text("Last Name: \(sessionService.userDetails?.lastName ?? "N/A")")
-                Text("Bar Name: \(sessionService.userDetails?.barName ?? "N/A")")
+                Image("logo")
+                Spacer()
                 
-            }
-            ButtonView(title: "Sign Out"){
-                // sign out view
-                sessionService.logout()
+                VStack(alignment: .leading, spacing: 16){
+                    
+                    
+                    Text("First Name: \(sessionService.userDetails?.firstName ?? "N/A")").foregroundColor(Color.white)
+                    Text("Last Name: \(sessionService.userDetails?.lastName ?? "N/A")")
+                        .foregroundColor(Color.white)
+                    Text("Bar Name: \(sessionService.userDetails?.barName ?? "N/A")")
+                        .foregroundColor(Color.white)
+                    Spacer()
+                    
+                }
+                ButtonView(title: "Sign Out"){
+                    // sign out view
+                    sessionService.logout()
+                }
             }
         }
+        
+        
     }
 }
 

@@ -17,14 +17,16 @@ struct LoginVIew: View {
     var body: some View {
         
         ZStack{
-            Image("WaveBG")
+            Image("Rectangle")
                         .resizable()
                         .scaledToFill()
                         .edgesIgnoringSafeArea(.all)
-                        .blur(radius: 500)
                         
             
             VStack(){
+                /*
+                
+                 */
                 Text("WAVE")
                     .font(.system(size: 72, weight: .thin, design: .default))
                     .fontWeight(.thin)
@@ -34,8 +36,9 @@ struct LoginVIew: View {
                     .font(.system(size: 18, weight: .light, design: .default))
                     .foregroundColor(Color.green)
                     .multilineTextAlignment(.center)
-                
-                Spacer()
+                Image("logo")
+               
+                    
                     
                 VStack(spacing: 16){
                     
@@ -61,7 +64,7 @@ struct LoginVIew: View {
                         showForgotPassword.toggle()
                     }, label: {
                         Text("Forgot Password?")
-                            .foregroundColor(Color(hue: 0.607, saturation: 0.857, brightness: 0.773))
+                            .foregroundColor(Color .green)
                             .padding(.trailing)
                     })
                         .font(.system(size: 16, weight: .bold))
@@ -82,8 +85,8 @@ struct LoginVIew: View {
                     }
                     ButtonView(title: "Sign-Up",
                                bg: .clear,
-                               fg: .black,
-                               border: .white){
+                               fg: .white,
+                               border: .green){
                         
                         //---------------------------
                         //Sign-Up view
