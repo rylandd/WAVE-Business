@@ -18,18 +18,18 @@ It does just that by allowing business owners to see their projected customers, 
   
   + Warranty: 11/14/21 by Will Hinson on MacOS.
   
-2. Testing:
+2. Testing: Click on Product on the Toolbar, click Test.
 
-3. Deployment:
+3. Deployment: The production system lives with the WAVE Dev Team. They are currently in development of the **WAVE - Customer Side** application and will deploy the app to the Apple App Store once they're finished. 
 
-4. Technologies used
+4. Technologies used: We are currently using Swift and Firebase in the development process.
 
-5. Contributing:
+5. Contributing: In order to contribute to the effort of the **WAVE - For Business Owners**, you need to first receive access to the Github repository and the Trello board (which is where we keep all of the new incoming adjustments and overall improvements to the app.
 
-6. Authors:
+6. Authors: Will Hinson, Tomas Sungaila, and Ryland Dreibelbis. 
 
-7. License:
+7. License: Our client did not give us permission to apply an open-source license with our IP Agreement. 
 
-8. Acknowledgements:
+8. Acknowledgements: All of the Apple Developer Forums have been extremeley helpful in teaching us how to code in Swift. Also, Google Developer websites have been extremely helpful in showing the team how to incorporate Firebase into the mobile app.
 
 
