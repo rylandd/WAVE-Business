@@ -31,6 +31,12 @@
 		29B4D74A271C979400592B61 /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D749271C979400592B61 /* CloseModifier.swift */; };
 		29B4D74E271C9C9600592B61 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D74D271C9C9600592B61 /* SuccessView.swift */; };
 		29B4D752271C9EC600592B61 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D751271C9EC600592B61 /* ForgotPasswordView.swift */; };
+		29D09A87275B402A00A26444 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 29D09A86275B402A00A26444 /* SwiftUICharts */; };
+		29D09A8B275B49DC00A26444 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A8A275B49DC00A26444 /* SideMenuView.swift */; };
+		29D09A8D275B4A0700A26444 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A8C275B4A0700A26444 /* SideMenuOptionView.swift */; };
+		29D09A8F275B4A2F00A26444 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A8E275B4A2F00A26444 /* SideMenuViewModel.swift */; };
+		29D09A91275B4B2900A26444 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A90275B4B2900A26444 /* SideMenuHeaderView.swift */; };
+		29D09A93275B769100A26444 /* SideMenuLogout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A92275B769100A26444 /* SideMenuLogout.swift */; };
 		73569BDD275B103100F4D190 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BDC275B103100F4D190 /* Algorithms */; };
 		73569BE0275B10AA00F4D190 /* ComplexModule in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BDF275B10AA00F4D190 /* ComplexModule */; };
 		73569BE2275B10AA00F4D190 /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BE1275B10AA00F4D190 /* Numerics */; };
@@ -81,6 +87,11 @@
 		29B4D749271C979400592B61 /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
 		29B4D74D271C9C9600592B61 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		29B4D751271C9EC600592B61 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		29D09A8A275B49DC00A26444 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		29D09A8C275B4A0700A26444 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		29D09A8E275B4A2F00A26444 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		29D09A90275B4B2900A26444 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		29D09A92275B769100A26444 /* SideMenuLogout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuLogout.swift; sourceTree = "<group>"; };
 		73569BED275B1B2B00F4D190 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		834A757727172ECF00778910 /* WAVE Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAVE Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessApp.swift; sourceTree = "<group>"; };
@@ -106,6 +117,7 @@
 				73569BE0275B10AA00F4D190 /* ComplexModule in Frameworks */,
 				29B4D726271B938A00592B61 /* FirebaseAnalytics in Frameworks */,
 				29B4D72C271B938A00592B61 /* FirebaseDatabase in Frameworks */,
+				29D09A87275B402A00A26444 /* SwiftUICharts in Frameworks */,
 				29B4D72E271B938A00592B61 /* FirebaseFirestore in Frameworks */,
 				73569BE4275B10AA00F4D190 /* RealModule in Frameworks */,
 				29B4D728271B938A00592B61 /* FirebaseAuth in Frameworks */,
@@ -205,6 +217,7 @@
 		29B4D733271B98F900592B61 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				29D09A89275B49CB00A26444 /* SideMenu */,
 				73569BEA275B18EB00F4D190 /* Analytics */,
 				290085FB271CC41E005F34C0 /* Session */,
 				29B4D74F271C9E9E00592B61 /* Forgot Password */,
@@ -313,6 +326,25 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		29D09A75275B365900A26444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29D09A89275B49CB00A26444 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				29D09A8A275B49DC00A26444 /* SideMenuView.swift */,
+				29D09A90275B4B2900A26444 /* SideMenuHeaderView.swift */,
+				29D09A8C275B4A0700A26444 /* SideMenuOptionView.swift */,
+				29D09A8E275B4A2F00A26444 /* SideMenuViewModel.swift */,
+				29D09A92275B769100A26444 /* SideMenuLogout.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
 		73569BEA275B18EB00F4D190 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +376,7 @@
 				834A758A27172ED100778910 /* WAVE BusinessTests */,
 				834A759427172ED100778910 /* WAVE BusinessUITests */,
 				834A757827172ECF00778910 /* Products */,
+				29D09A75275B365900A26444 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -423,6 +456,7 @@
 				73569BDF275B10AA00F4D190 /* ComplexModule */,
 				73569BE1275B10AA00F4D190 /* Numerics */,
 				73569BE3275B10AA00F4D190 /* RealModule */,
+				29D09A86275B402A00A26444 /* SwiftUICharts */,
 			);
 			productName = "WAVE Business";
 			productReference = 834A757727172ECF00778910 /* WAVE Business.app */;
@@ -500,6 +534,7 @@
 				29B4D724271B938A00592B61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				73569BDB275B103100F4D190 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 				73569BDE275B10AA00F4D190 /* XCRemoteSwiftPackageReference "swift-numerics" */,
+				29D09A85275B402A00A26444 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 834A757827172ECF00778910 /* Products */;
 			projectDirPath = "";
@@ -544,21 +579,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D09A93275B769100A26444 /* SideMenuLogout.swift in Sources */,
 				29008604271CD322005F34C0 /* LoginCredentials.swift in Sources */,
 				29B4D742271BA9C200592B61 /* ButtonView.swift in Sources */,
 				298ACDB9271CB7130003F76B /* RegistrationService.swift in Sources */,
+				29D09A8D275B4A0700A26444 /* SideMenuOptionView.swift in Sources */,
 				29B4D737271B996000592B61 /* LoginVIew.swift in Sources */,
 				298ACDBC271CBB140003F76B /* RegistrationViewModel.swift in Sources */,
 				29008601271CC4D2005F34C0 /* SessionService.swift in Sources */,
 				29B4D74E271C9C9600592B61 /* SuccessView.swift in Sources */,
 				290085FE271CC469005F34C0 /* SessionUserDetails.swift in Sources */,
+				29D09A91275B4B2900A26444 /* SideMenuHeaderView.swift in Sources */,
 				29B4D74A271C979400592B61 /* CloseModifier.swift in Sources */,
 				29B4D740271BA6B100592B61 /* PasswordView.swift in Sources */,
 				298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */,
+				29D09A8F275B4A2F00A26444 /* SideMenuViewModel.swift in Sources */,
 				29B4D73B271B9B3F00592B61 /* InputView.swift in Sources */,
 				29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */,
 				73569BEE275B1B2B00F4D190 /* AnalyticsView.swift in Sources */,
 				29008607271CD369005F34C0 /* LoginService.swift in Sources */,
+				29D09A8B275B49DC00A26444 /* SideMenuView.swift in Sources */,
 				29B4D752271C9EC600592B61 /* ForgotPasswordView.swift in Sources */,
 				29B4D748271C961F00592B61 /* RegisterView.swift in Sources */,
 				834A757D27172ECF00778910 /* ContentView.swift in Sources */,
@@ -922,6 +962,14 @@
 				minimumVersion = 8.0.0;
 			};
 		};
+		29D09A85275B402A00A26444 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
 		73569BDB275B103100F4D190 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-algorithms.git";
@@ -970,6 +1018,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 29B4D724271B938A00592B61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
+		};
+		29D09A86275B402A00A26444 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29D09A85275B402A00A26444 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
 		};
 		73569BDC275B103100F4D190 /* Algorithms */ = {
 			isa = XCSwiftPackageProductDependency;
