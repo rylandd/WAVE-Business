@@ -30,3 +30,12 @@ struct AnalyticsView : View {
         }
     }
 }
+
+struct AnalyticsView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+            AnalyticsView()
+        }
+        
+    }
+}
