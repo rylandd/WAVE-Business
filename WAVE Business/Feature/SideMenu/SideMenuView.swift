@@ -29,6 +29,26 @@ struct SideMenuView: View {
                 
                 //Options
                 
+                NavigationLink(
+                    destination: SuccessView().environmentObject(sessionService),
+                    label: {
+                        SideMenuOptionView(viewModel: .dashboard)
+                    }
+                )
+                NavigationLink(
+                    destination: Text("Analytics"),
+                    label: {
+                        SideMenuOptionView(viewModel: .analytics)
+                    }
+                )
+                NavigationLink(
+                    destination: Text("Create an Ad"),
+                    label: {
+                        SideMenuOptionView(viewModel: .ads)
+                    }
+                )
+                
+                /*
                 ForEach(SideMenuViewModel.allCases, id: \.self){ option in
                 
                 
@@ -38,7 +58,7 @@ struct SideMenuView: View {
                         SideMenuOptionView(viewModel: option)
                     })
                 }
-                
+                */
                 
                 Spacer()
                 HStack{
