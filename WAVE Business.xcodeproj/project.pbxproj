@@ -31,12 +31,13 @@
 		29B4D74A271C979400592B61 /* CloseModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D749271C979400592B61 /* CloseModifier.swift */; };
 		29B4D74E271C9C9600592B61 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D74D271C9C9600592B61 /* SuccessView.swift */; };
 		29B4D752271C9EC600592B61 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B4D751271C9EC600592B61 /* ForgotPasswordView.swift */; };
-		29D09A87275B402A00A26444 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 29D09A86275B402A00A26444 /* SwiftUICharts */; };
 		29D09A8B275B49DC00A26444 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A8A275B49DC00A26444 /* SideMenuView.swift */; };
 		29D09A8D275B4A0700A26444 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A8C275B4A0700A26444 /* SideMenuOptionView.swift */; };
 		29D09A8F275B4A2F00A26444 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A8E275B4A2F00A26444 /* SideMenuViewModel.swift */; };
 		29D09A91275B4B2900A26444 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A90275B4B2900A26444 /* SideMenuHeaderView.swift */; };
 		29D09A93275B769100A26444 /* SideMenuLogout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09A92275B769100A26444 /* SideMenuLogout.swift */; };
+		29D09AA2275B979200A26444 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 29D09AA1275B979200A26444 /* SwiftUICharts */; };
+		29D09AA4275B985500A26444 /* BarChartViewz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D09AA3275B985500A26444 /* BarChartViewz.swift */; };
 		73569BDD275B103100F4D190 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BDC275B103100F4D190 /* Algorithms */; };
 		73569BE0275B10AA00F4D190 /* ComplexModule in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BDF275B10AA00F4D190 /* ComplexModule */; };
 		73569BE2275B10AA00F4D190 /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BE1275B10AA00F4D190 /* Numerics */; };
@@ -92,6 +93,7 @@
 		29D09A8E275B4A2F00A26444 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		29D09A90275B4B2900A26444 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		29D09A92275B769100A26444 /* SideMenuLogout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuLogout.swift; sourceTree = "<group>"; };
+		29D09AA3275B985500A26444 /* BarChartViewz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewz.swift; sourceTree = "<group>"; };
 		73569BED275B1B2B00F4D190 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		834A757727172ECF00778910 /* WAVE Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAVE Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessApp.swift; sourceTree = "<group>"; };
@@ -117,7 +119,7 @@
 				73569BE0275B10AA00F4D190 /* ComplexModule in Frameworks */,
 				29B4D726271B938A00592B61 /* FirebaseAnalytics in Frameworks */,
 				29B4D72C271B938A00592B61 /* FirebaseDatabase in Frameworks */,
-				29D09A87275B402A00A26444 /* SwiftUICharts in Frameworks */,
+				29D09AA2275B979200A26444 /* SwiftUICharts in Frameworks */,
 				29B4D72E271B938A00592B61 /* FirebaseFirestore in Frameworks */,
 				73569BE4275B10AA00F4D190 /* RealModule in Frameworks */,
 				29B4D728271B938A00592B61 /* FirebaseAuth in Frameworks */,
@@ -262,6 +264,7 @@
 				29B4D73A271B9B3F00592B61 /* InputView.swift */,
 				29B4D73F271BA6B100592B61 /* PasswordView.swift */,
 				29B4D741271BA9C200592B61 /* ButtonView.swift */,
+				29D09AA3275B985500A26444 /* BarChartViewz.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -456,7 +459,7 @@
 				73569BDF275B10AA00F4D190 /* ComplexModule */,
 				73569BE1275B10AA00F4D190 /* Numerics */,
 				73569BE3275B10AA00F4D190 /* RealModule */,
-				29D09A86275B402A00A26444 /* SwiftUICharts */,
+				29D09AA1275B979200A26444 /* SwiftUICharts */,
 			);
 			productName = "WAVE Business";
 			productReference = 834A757727172ECF00778910 /* WAVE Business.app */;
@@ -534,7 +537,7 @@
 				29B4D724271B938A00592B61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				73569BDB275B103100F4D190 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 				73569BDE275B10AA00F4D190 /* XCRemoteSwiftPackageReference "swift-numerics" */,
-				29D09A85275B402A00A26444 /* XCRemoteSwiftPackageReference "ChartView" */,
+				29D09AA0275B979200A26444 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
 			);
 			productRefGroup = 834A757827172ECF00778910 /* Products */;
 			projectDirPath = "";
@@ -594,6 +597,7 @@
 				29B4D740271BA6B100592B61 /* PasswordView.swift in Sources */,
 				298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */,
 				29D09A8F275B4A2F00A26444 /* SideMenuViewModel.swift in Sources */,
+				29D09AA4275B985500A26444 /* BarChartViewz.swift in Sources */,
 				29B4D73B271B9B3F00592B61 /* InputView.swift in Sources */,
 				29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */,
 				73569BEE275B1B2B00F4D190 /* AnalyticsView.swift in Sources */,
@@ -962,12 +966,12 @@
 				minimumVersion = 8.0.0;
 			};
 		};
-		29D09A85275B402A00A26444 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+		29D09AA0275B979200A26444 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppPear/ChartView";
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
 			requirement = {
-				kind = exactVersion;
-				version = "2.0.0-beta.2";
+				branch = main;
+				kind = branch;
 			};
 		};
 		73569BDB275B103100F4D190 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
@@ -1019,9 +1023,9 @@
 			package = 29B4D724271B938A00592B61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
 		};
-		29D09A86275B402A00A26444 /* SwiftUICharts */ = {
+		29D09AA1275B979200A26444 /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 29D09A85275B402A00A26444 /* XCRemoteSwiftPackageReference "ChartView" */;
+			package = 29D09AA0275B979200A26444 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
 			productName = SwiftUICharts;
 		};
 		73569BDC275B103100F4D190 /* Algorithms */ = {

@@ -18,6 +18,7 @@ enum SessionState {
 protocol SessionService {
     var state: SessionState {get}
     var userDetails: SessionUserDetails? {get}
+    //---
     func logout()
 }
 
@@ -73,5 +74,7 @@ private extension SessionServiceImpl {
                                                           barName: barName)
                 }
             }
+        
+            
     }
 }

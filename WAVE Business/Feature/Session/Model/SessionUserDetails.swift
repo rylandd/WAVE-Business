@@ -12,3 +12,4 @@ struct SessionUserDetails {
     let lastName: String
     let barName: String
 }
+
