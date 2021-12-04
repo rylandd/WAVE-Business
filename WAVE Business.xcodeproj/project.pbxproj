@@ -35,8 +35,7 @@
 		73569BE0275B10AA00F4D190 /* ComplexModule in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BDF275B10AA00F4D190 /* ComplexModule */; };
 		73569BE2275B10AA00F4D190 /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BE1275B10AA00F4D190 /* Numerics */; };
 		73569BE4275B10AA00F4D190 /* RealModule in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BE3275B10AA00F4D190 /* RealModule */; };
-		73569BE7275B10DE00F4D190 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BE6275B10DE00F4D190 /* Charts */; };
-		73569BE9275B10DE00F4D190 /* ChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 73569BE8275B10DE00F4D190 /* ChartsDynamic */; };
+		73569BEE275B1B2B00F4D190 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73569BED275B1B2B00F4D190 /* AnalyticsView.swift */; };
 		834A757B27172ECF00778910 /* WAVE_BusinessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */; };
 		834A757D27172ECF00778910 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A757C27172ECF00778910 /* ContentView.swift */; };
 		834A757F27172ED000778910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A757E27172ED000778910 /* Assets.xcassets */; };
@@ -82,6 +81,7 @@
 		29B4D749271C979400592B61 /* CloseModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseModifier.swift; sourceTree = "<group>"; };
 		29B4D74D271C9C9600592B61 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		29B4D751271C9EC600592B61 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		73569BED275B1B2B00F4D190 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 		834A757727172ECF00778910 /* WAVE Business.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WAVE Business.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834A757A27172ECF00778910 /* WAVE_BusinessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVE_BusinessApp.swift; sourceTree = "<group>"; };
 		834A757C27172ECF00778910 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,10 +102,8 @@
 				29B4D730271B938A00592B61 /* FirebaseMessaging in Frameworks */,
 				73569BE2275B10AA00F4D190 /* Numerics in Frameworks */,
 				73569BDD275B103100F4D190 /* Algorithms in Frameworks */,
-				73569BE9275B10DE00F4D190 /* ChartsDynamic in Frameworks */,
 				29B4D72A271B938A00592B61 /* FirebaseCrashlytics in Frameworks */,
 				73569BE0275B10AA00F4D190 /* ComplexModule in Frameworks */,
-				73569BE7275B10DE00F4D190 /* Charts in Frameworks */,
 				29B4D726271B938A00592B61 /* FirebaseAnalytics in Frameworks */,
 				29B4D72C271B938A00592B61 /* FirebaseDatabase in Frameworks */,
 				29B4D72E271B938A00592B61 /* FirebaseFirestore in Frameworks */,
@@ -207,6 +205,7 @@
 		29B4D733271B98F900592B61 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				73569BEA275B18EB00F4D190 /* Analytics */,
 				290085FB271CC41E005F34C0 /* Session */,
 				29B4D74F271C9E9E00592B61 /* Forgot Password */,
 				29B4D74B271C9C6300592B61 /* Success */,
@@ -314,6 +313,30 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		73569BEA275B18EB00F4D190 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				73569BEC275B192200F4D190 /* Model */,
+				73569BEB275B190E00F4D190 /* View */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		73569BEB275B190E00F4D190 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73569BED275B1B2B00F4D190 /* AnalyticsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73569BEC275B192200F4D190 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		834A756E27172ECF00778910 = {
 			isa = PBXGroup;
 			children = (
@@ -400,8 +423,6 @@
 				73569BDF275B10AA00F4D190 /* ComplexModule */,
 				73569BE1275B10AA00F4D190 /* Numerics */,
 				73569BE3275B10AA00F4D190 /* RealModule */,
-				73569BE6275B10DE00F4D190 /* Charts */,
-				73569BE8275B10DE00F4D190 /* ChartsDynamic */,
 			);
 			productName = "WAVE Business";
 			productReference = 834A757727172ECF00778910 /* WAVE Business.app */;
@@ -479,7 +500,6 @@
 				29B4D724271B938A00592B61 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				73569BDB275B103100F4D190 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 				73569BDE275B10AA00F4D190 /* XCRemoteSwiftPackageReference "swift-numerics" */,
-				73569BE5275B10DD00F4D190 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 834A757827172ECF00778910 /* Products */;
 			projectDirPath = "";
@@ -537,6 +557,7 @@
 				298ACDB6271CB6B40003F76B /* RegistrationDetails.swift in Sources */,
 				29B4D73B271B9B3F00592B61 /* InputView.swift in Sources */,
 				29B4D73E271BA4AF00592B61 /* PreviewLayoutComponentModifier.swift in Sources */,
+				73569BEE275B1B2B00F4D190 /* AnalyticsView.swift in Sources */,
 				29008607271CD369005F34C0 /* LoginService.swift in Sources */,
 				29B4D752271C9EC600592B61 /* ForgotPasswordView.swift in Sources */,
 				29B4D748271C961F00592B61 /* RegisterView.swift in Sources */,
@@ -917,14 +938,6 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		73569BE5275B10DD00F4D190 /* XCRemoteSwiftPackageReference "Charts" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/danielgindi/Charts";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -977,16 +990,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 73569BDE275B10AA00F4D190 /* XCRemoteSwiftPackageReference "swift-numerics" */;
 			productName = RealModule;
-		};
-		73569BE6275B10DE00F4D190 /* Charts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 73569BE5275B10DD00F4D190 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = Charts;
-		};
-		73569BE8275B10DE00F4D190 /* ChartsDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 73569BE5275B10DD00F4D190 /* XCRemoteSwiftPackageReference "Charts" */;
-			productName = ChartsDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
