@@ -36,7 +36,7 @@ struct SideMenuView: View {
                     }
                 )
                 NavigationLink(
-                    destination: Text("Analytics"),
+                    destination: AnalyticsView(),
                     label: {
                         SideMenuOptionView(viewModel: .analytics)
                     }
